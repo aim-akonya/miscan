@@ -1,2 +1,2 @@
-# MavenAppStarter
-Starter template for maven projects
+# MISCAN
+system network utility tool. 
