@@ -1,11 +1,9 @@
-name: Maven Java App Starter Template
-
+name: build
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
-    
 jobs:
   build_and_test:
     runs-on: ubuntu-latest
