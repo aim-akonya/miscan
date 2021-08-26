@@ -23,6 +23,13 @@
 
 	<dependencies>
 
+		<!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
+		<dependency>
+			<groupId>commons-net</groupId>
+			<artifactId>commons-net</artifactId>
+			<version>3.8.0</version>
+		</dependency>
+
 		<!-- spring shell dependency -->
 		<dependency>
 			<groupId>org.springframework.shell</groupId>
@@ -37,7 +44,7 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
+
 	<build>
 		<finalName>miscan</finalName>
 		<plugins>
